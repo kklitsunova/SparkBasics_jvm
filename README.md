@@ -4,7 +4,7 @@
 
 Connecting Storage Account in Azure Storage Explorer use this SAS UR
 
-![alt text](/Users/kseniaklicunova/Home/bsa.png)
+![alt text](images/bsa.png)
 
 Creating Spark ETL job to read data from storage container
 ```
@@ -77,11 +77,11 @@ var weather_df = spark.read
 
 Checking hotels data on incorrect values
 
-![alt text](/Users/kseniaklicunova/Home/chek.png)
+![alt text](images/chek.png)
 
 For incorrect values mapping (Latitude & Longitude) from OpenCage Geocoding API
 
-![alt text](/Users/kseniaklicunova/Home/map.png)
+![alt text](images/map.png)
 
 * Generating geohash by Latitude & Longitude using geohash library
 
@@ -105,7 +105,7 @@ Generating geohash for hotels
 
 Result
 
-![alt text](/Users/kseniaklicunova/Home/geohash_hotels.png)
+![alt text](images/geohash_hotels.png)
 
 Generating geohash for weather
 
@@ -125,7 +125,7 @@ Generating geohash for weather
 
 Result
 
-![alt text](/Users/kseniaklicunova/Home/geohash_weather.png)
+![alt text](images/geohash_weather.png)
 
 * Left join weather and hotels data by generated geohash
 
@@ -138,7 +138,7 @@ Result
 
 Terraform files
 
-![alt text](/Users/kseniaklicunova/Home/terr.png)
+![alt text](images/terr.png)
 
 Terraform scripts
 
@@ -229,7 +229,7 @@ terraform destroy
 
 Result infrastructure in Azure
 
-![alt text](/Users/kseniaklicunova/Home/az.png)
+![alt text](images/az.png)
 
 Building and pushing docker image
 
@@ -240,7 +240,7 @@ docker push containerregistrybdcc.azurecr.io/sparkbsicsimg:v1
 ```
 Result 
 
-![alt text](/Users/kseniaklicunova/Home/rep.png)
+![alt text](images/rep.png)
 
 Creating a service account that has sufficient permissions for running a job
 
@@ -281,4 +281,4 @@ local:///opt/sparkbasics-1.0.0.jar
 
 Result
 
-![alt text](/Users/kseniaklicunova/Home/res.png)
+![alt text](images/res.png)
