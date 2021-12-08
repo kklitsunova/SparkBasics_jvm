@@ -1,12 +1,15 @@
 *.class
 *.log
-*.plan
+
 *.tfstate
 *.tfstate.backup
 
 # idea
 /.idea
 /target
+/terraform/terraform.tfstate
+/terraform/terraform.plan
+/terraform/terraform.tfstate.backup
 *.iml
 
 ### Mac ###
