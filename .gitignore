@@ -1,5 +1,8 @@
 *.class
 *.log
+*.plan
+*.tfstate
+*.tfstate.backup
 
 # idea
 /.idea

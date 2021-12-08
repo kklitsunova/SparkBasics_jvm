@@ -22,7 +22,6 @@ object SparkBasics extends Serializable {
 
     //  Creating Spark session and run spark job
     val spark = SparkSession.builder
-      .master("local[*]")
       .appName("SparkBasics")
       .config(conf)
       .getOrCreate()
@@ -40,7 +39,6 @@ object SparkBasics extends Serializable {
       hotels_df
         //    Check hotels data on incorrect (null) values (Latitude & Longitude)
         .filter((hotels_df("Latitude").isNull) || (hotels_df("Longitude").isNull) || (hotels_df("Latitude") === "NA") || (hotels_df("Longitude") === "NA"))
-        .collect()
         .foreach(row => {
             val address = row(4)
             val city = row(3)
