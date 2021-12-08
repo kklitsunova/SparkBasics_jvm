@@ -18,7 +18,6 @@ conf.set("fs.azure.account.key.bdccstorageacc.blob.core.windows.net", "TgKk9CtmH
 
 //  Creating Spark session and run spark job
 val spark = SparkSession.builder
-    .master("local[*]")
     .appName("SparkBasics")
     .config(conf)
     .getOrCreate()
