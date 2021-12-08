@@ -6,5 +6,10 @@
 /target
 *.iml
 
+terraform/terraform.tfstate.backup
+terraform/terraform.tfstate
+terraform/terraform.plan
+
+
 ### Mac ###
 .DS_Store
