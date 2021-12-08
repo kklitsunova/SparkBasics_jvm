@@ -1,9 +1,6 @@
 *.class
 *.log
 
-*.tfstate
-*.tfstate.backup
-
 # idea
 /.idea
 /target
