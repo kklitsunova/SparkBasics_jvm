@@ -6,9 +6,9 @@
 /target
 *.iml
 
-terraform/terraform.tfstate.backup
-terraform/terraform.tfstate
-terraform/terraform.plan
+/terraform/terraform.tfstate.backup
+/terraform/terraform.tfstate
+/terraform/terraform.plan
 
 
 ### Mac ###
